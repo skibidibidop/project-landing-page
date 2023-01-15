@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    height: 60px;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    margin-right: 100px;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    flex: 1;
+    margin-left: 100px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
