@@ -4,12 +4,13 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
 }
 
 .header {
     display: flex;
     flex: 1;
+    flex-wrap: wrap;
     height: 60px;
     background-color: #1f2937;
     color: white;
@@ -19,9 +20,13 @@ a {
 
 .links {
     display: flex;
+    flex: 1;
+    flex-wrap: wrap;
     margin-right: 100px;
     align-items: center;
+    justify-content: flex-end;
     gap: 20px;
+    font-size: 18px;
 }
 
 .logo {
@@ -32,3 +37,44 @@ a {
     font-size: 25px;
     font-weight: bold;
 }
+
+.hero {
+ display: flex;
+ flex: 1;
+ flex-wrap: wrap;
+ background-color: #1f2937;
+ align-items: center;
+ padding: 70px 100px;
+ gap: 50px;
+ justify-content: space-between;
+}
+
+.placeholder {
+    display: flex;
+    width: 400px;
+    height: auto;
+    border-color: grey;
+    border-style: solid;
+}
+
+.herohead {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8
+}
+
+.herosub {
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+.signup-top {
+    background-color: #3882F6;
+    color:#e5e7eb;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
