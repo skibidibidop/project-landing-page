@@ -78,3 +78,14 @@ a {
     font-weight: bold;
 }
 
+.infotitle {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.infobox {
+    display: flex;
+    flex: 1;
+}
