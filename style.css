@@ -109,3 +109,29 @@ a {
     border: 5px solid #3882F6;
     border-radius: 10px;
 }
+
+.quotebox {
+    display: flex;
+    flex: 1, 1, 0;
+    height: 600px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    width: 1000px;
+}
+
+.author {
+    width: 900px;
+    text-align: right;
+    font-size: 30px;
+}
+
