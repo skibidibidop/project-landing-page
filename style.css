@@ -200,3 +200,12 @@ a {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.footer {
+    display: flex;
+    flex: 1;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: center;
+    padding: 30px;
+}
