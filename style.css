@@ -141,3 +141,62 @@ a {
     padding-left: 500px;
 }
 
+.callbox {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.callbox-in {
+    display: flex;
+    flex: 1, 1, 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #3882F6;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    
+}
+
+.callbox-left {
+    display: flex;
+    flex: 1, 1, 0;
+    flex-direction: column;
+    color: #e5e7eb;
+    justify-content: center;
+}
+
+.call {
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.calltxt {
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.callbox-right {
+    display: flex;
+    flex: 1, 1, 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 200px;
+}
+
+.signup-bottom {
+    color: #e5e7eb;
+    background-color: #3882F6;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
