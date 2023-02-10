@@ -112,26 +112,32 @@ a {
 
 .quotebox {
     display: flex;
-    flex: 1, 1, 0;
+    flex: 1;
     height: 600px;
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #e5e7eb;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: light;
     color: #1f2937;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .quote {
-    width: 1000px;
+    display: flex;
+    flex: 1,1,0;
+    padding-left: 400px;
+    padding-right: 400px;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-weight: light;
+    font-size: 36px;
 }
 
 .author {
-    width: 900px;
-    text-align: right;
+    display: flex;
+    flex: 1,1,0;
     font-size: 30px;
+    padding-left: 500px;
 }
 
