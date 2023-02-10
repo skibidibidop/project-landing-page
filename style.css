@@ -88,4 +88,24 @@ a {
 .infobox {
     display: flex;
     flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.infopic {
+    display: flex;
+    flex: 1, 1, 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    margin: 40px;
+}
+
+.imgbox {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
 }
